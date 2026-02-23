@@ -26,7 +26,7 @@ const AuthForm = () => {
     let userData = formData;
     try {
       const response = await fetch(
-        "http://127.0.0.1:8000/api/login/",
+        "https://booking-app-a6cv.onrender.com/api/login/",
         {
           method: "POST",
           headers: {
@@ -59,7 +59,7 @@ const AuthForm = () => {
     let userData = formData;
     try {
       const response = await fetch(
-        "http://127.0.0.1:8000/api/register/",
+        "https://booking-app-a6cv.onrender.com/api/register/",
         {
           method: "POST",
           headers: {
