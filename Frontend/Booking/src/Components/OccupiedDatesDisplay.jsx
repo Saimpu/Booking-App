@@ -12,7 +12,7 @@ const OccupiedDatesDisplay = () => {
       return;
     }
 
-    const baseURL = "http://127.0.0.1:8000/api";
+    const baseURL = "https://booking-app-a6cv.onrender.com/api";
     async function fetchDates() {
       try {
         const response = await fetch(`${baseURL}/occupied/`, {
