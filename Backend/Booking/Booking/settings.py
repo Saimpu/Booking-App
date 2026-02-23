@@ -104,16 +104,22 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 CSRF_TRUSTED_ORIGINS = [
     "http://localhost:5173",
+    "https://booking-app-a6cv.onrender.com",
 ]
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
-    "http://127.0.0.1:5173",
 ]
+
 CORS_ALLOW_ALL_ORIGINS = True
 
 CORS_EXPOSE_HEADERS=[
     "Content-Type",
     "Authorization"
+]
+ALLOWED_HOSTS = [
+    "booking-app-a6cv.onrender.com",
+    "localhost",
+    "127.0.0.1",
 ]
 
 # Internationalization
