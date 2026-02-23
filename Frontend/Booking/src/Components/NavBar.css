@@ -1,0 +1,41 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; 
+  background-color: #333;
+  padding: 1rem;
+  color: #f8f8f8;
+  margin-bottom: 3rem;
+  width: 100%;
+}
+
+.navbar h1 {
+  margin: 0;
+  font-size: clamp(1.5rem, 4vw, 2rem);
+  white-space: nowrap;
+}
+
+.navbar ul {
+  flex-wrap: wrap;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar ul li a {
+  color: #f8f8f8;
+  text-decoration: none;
+}
+
+.navbar ul li a:hover {
+  text-decoration: underline;
+}
+
+.logout:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
