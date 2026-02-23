@@ -12,7 +12,7 @@ const RoomCard = ({ room, selectedDateRange, onBookingSuccess }) => {
   const handleBooking = async (roomId, userId, selectedDateRange) => {
     if (!user) return navigate("/auth");
 
-    const baseURL = "http://127.0.0.1:8000/api";
+    const baseURL = "https://booking-app-a6cv.onrender.com/api";
 
     const startDate = new Date(selectedDateRange.startDate);
     const endDate = new Date(
