@@ -22,7 +22,7 @@ const BookingComponent = ({ currentUser }) => {
     async function fetchRoomData() {
       try {
         const response = await fetch(
-          "http://127.0.0.1:8000/api/roomBooking/",
+          "https://booking-app-a6cv.onrender.com/api/roomBooking/",
           {
             method: "GET",
           }
